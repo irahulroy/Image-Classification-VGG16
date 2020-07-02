@@ -1,2 +1,2 @@
 # Deep Learning with Tensorflow (VGG16)
-An image classification tutorial using the VGG16 network. As part of transfer learning, we keep the original weights obtained with 'ImageNet' data while tuning the number of neuron units and dropout rate in the penultimate dense and dropout layers respectively.  
+An image classification tutorial using the VGG16 network as feature extractor. As part of transfer learning, we keep the original weights obtained after training the network with 'ImageNet' data while tuning the number of neuron units and dropout rate in the penultimate dense and dropout layers respectively. Besides, we also regularize the output from the feature extractor using a dropout layer. Hyperparameter tuning is done via Bayesian optimization.  
